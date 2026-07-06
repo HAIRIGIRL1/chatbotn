@@ -1,0 +1,43 @@
+{
+  "name": "njc-bot",
+  "version": "1.0.0",
+  "description": "NJC Messenger Bot - Personal Project",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node core/_build.js"
+  },
+  "keywords": [
+    "njc",
+    "bot",
+    "messenger",
+    "chatbot"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@replit/database": "^2.0.2",
+    "@xaviabot/fca-unofficial": "^1.3.33",
+    "axios": "^1.6.7",
+    "canvas": "^2.10.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "helmet": "^6.0.0",
+    "js-yaml": "^4.1.0",
+    "moment-timezone": "^0.5.38",
+    "mongoose": "^7.5.0",
+    "node-cron": "^3.0.2",
+    "semver": "^7.3.8",
+    "string-similarity": "^4.0.4",
+    "wikijs": "^6.4.0",
+    "ytdl-core": "^4.11.2"
+  }
+}
